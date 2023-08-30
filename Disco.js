@@ -78,31 +78,5 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 </head>
-<body>
-
-<button class="open-button" onclick="openForm()">Chat</button>
-
-<div class="chat-popup" id="myForm">
-  <form action="https://discord.gg/HcHBg5v" target="_blank" class="form-container">
-    <h1>Chat</h1>
-
-    <label for="msg"><b>Message Slither World Chat</b></label>
-    <iframe src="http://overhax.ml/slitherdisco.html" width=400px height=300px></iframe>
-
-    <button type="submit" class="btn">Join Discord</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
-
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
-
 </body>
 </html>
