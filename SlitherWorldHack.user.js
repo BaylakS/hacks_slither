@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         SLITHER WORLD OVERHAX
+// @namespace    http://slither.io/
+// @version      0.4
+// @description  Most advanced slither.io hack
+// @author       OVERHAX | THEGUY3ds
+// @match        http://slither.io/
+// @require http://code.jquery.com/jquery-3.4.1.min.js
+// @grant        none
+// ==/UserScript==
+
 document['getElementById']('fb')['remove']();
 document['getElementById']('twth').innerHTML = '<a draggable="false" id=\"twt\" style=\"width:80px; height:74px;">';
 document.getElementById('clq').style.fontSize = 'larger';
